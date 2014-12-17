@@ -14,6 +14,7 @@
 		D351E00119EC7740006F4524 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D351E00019EC7740006F4524 /* Images.xcassets */; };
 		D351E00419EC7740006F4524 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D351E00219EC7740006F4524 /* LaunchScreen.xib */; };
 		D351E01019EC7740006F4524 /* ALAppStoreTerritoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D351E00F19EC7740006F4524 /* ALAppStoreTerritoryTests.m */; };
+		D351E01B19EC7775006F4524 /* NSDictionary+AppStoreTerritory.m in Sources */ = {isa = PBXBuildFile; fileRef = D351E01A19EC7775006F4524 /* NSDictionary+AppStoreTerritory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		D351E00919EC7740006F4524 /* ALAppStoreTerritoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALAppStoreTerritoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D351E00E19EC7740006F4524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D351E00F19EC7740006F4524 /* ALAppStoreTerritoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALAppStoreTerritoryTests.m; sourceTree = "<group>"; };
+		D351E01919EC7775006F4524 /* NSDictionary+AppStoreTerritory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+AppStoreTerritory.h"; sourceTree = "<group>"; };
+		D351E01A19EC7775006F4524 /* NSDictionary+AppStoreTerritory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+AppStoreTerritory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D3147E3D1A424763007E1ACC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D351E01919EC7775006F4524 /* NSDictionary+AppStoreTerritory.h */,
+				D351E01A19EC7775006F4524 /* NSDictionary+AppStoreTerritory.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 		D351DFE719EC7740006F4524 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +101,7 @@
 				D351E00019EC7740006F4524 /* Images.xcassets */,
 				D351E00219EC7740006F4524 /* LaunchScreen.xib */,
 				D351DFF319EC7740006F4524 /* Supporting Files */,
+				D3147E3D1A424763007E1ACC /* Classes */,
 			);
 			path = ALAppStoreTerritory;
 			sourceTree = "<group>";
@@ -221,6 +234,7 @@
 			files = (
 				D351DFFC19EC7740006F4524 /* ViewController.m in Sources */,
 				D351DFF919EC7740006F4524 /* AppDelegate.m in Sources */,
+				D351E01B19EC7775006F4524 /* NSDictionary+AppStoreTerritory.m in Sources */,
 				D351DFF619EC7740006F4524 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +426,7 @@
 				D351E01519EC7740006F4524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D351E01619EC7740006F4524 /* Build configuration list for PBXNativeTarget "ALAppStoreTerritoryTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +435,7 @@
 				D351E01819EC7740006F4524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
